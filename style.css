@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+
+body {
+    /* background-image: url(pexels-maxyne-barcel.png);
+    background-color: linear-gradient( rgba(31, 20, 150, 0.312));
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden; */
+    /* background: linear-gradient( to center, #282244ba, #311046cc), url(pexels-maxyne-barcel.png) no-repeat top center; */
+    background: linear-gradient(to top, #3a2f42cc, #3a2f42cc), url(pexels-maxyne-barcel.png) no-repeat top center;
+    background-size: cover;
+    background-color: #30435f;
+    height: 100%;
+    overflow: hidden;
+    color: #30435f
+}
+
+
+/* .container-image {
+    background: rgba(50, 70, 80, 0.7);
+    overflow: hidden;
+    height: 100%;
+} */
+
+.button-small {
+    position: absolute;
+    left: 70%;
+    bottom: 90%;
+    padding: 20px 50px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+
+.hero-heading {
+    color: rgba(255, 255, 0, 0.788);
+    position: absolute;
+    font-family: "Red Rose", cursivee;
+    font-size: 100px;
+    left: 25%;
+    top: 30%;
+}
+
+#Image1 {
+    position: absolute;
+    left: 70%;
+    right: auto;
+    bottom: 10%
+}
+
+.button-large {
+    position: absolute;
+    left: 40%;
+    bottom: 15%;
+    border-radius: 0;
+    padding: 15px 60px;
+    color: white;
+    background-color: red;
+    border: white;
+    font-size: 30px;
+}
+
+#Image2 {
+    margin-left: 10px;
+    position: absolute;
+    top: 2%;
+    left: 5px;
+}
+
+li {
+    display: inline-block;
+    color: yellow;
+    position: relative;
+    left: 30%;
+    top: 20px;
+    padding-left: 30px;
+    font-size: 25px;
+    font-family: "Red Rose", cursive;
+}
